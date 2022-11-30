@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+:root {
+  /* --yellow: #f9ca24; */
+  --yellow: #e29117;
+}
+
+html, body {
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  color: white;
+  margin: 0 auto;
+}
+
+h1, h2, p {
+  margin: 4px;
+}
+h2,
+p {
+  font-family: 'Sansita', sans-serif;
+  letter-spacing: 0.3px
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 1.8rem;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all .2s linear;
+}
+
+.linkedin-backgroung {
+  background-image: url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-color: #2b251d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  background: rgba(14, 13, 13, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+
+.overlay * {
+  position: relative;
+  /* Makes elements display above overlay. */
+}
+
+.sec-first-child {
+  width: 50%;
+  position: relative;
+  left: 45%;
+  top: 15%;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.linkedin-intro h1 {
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+
+.linkedin-intro span {
+  display: none;
+}
+
+#read-more {
+  font-size: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+#read-more:hover {
+  color: var(--yellow);
+  font-weight: bolder;
+}
+
+.social-media {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 14px;
+}
+
+.social-media img {
+  width: 1.5rem;
+  height: auto;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.image1 {
+  padding: 0.188rem 0 0.188rem 0;
+  /* transition: transform .2s; */
+}
+
+.image1:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
