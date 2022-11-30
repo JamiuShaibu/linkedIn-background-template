@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
 
 :root {
   --yellow: #e29117;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all .2s linear;
 }
 
 html, body {
@@ -12,37 +19,28 @@ html, body {
   margin: 0 auto;
 }
 
-h1, h2, p {
-  margin: 4px;
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 1.8rem;
 }
-h2,
-p {
+
+h1, h2, p {
+  margin: 0.25rem;
+}
+
+h2, p {
   font-family: 'Sansita', sans-serif;
-  letter-spacing: 0.3px
+  letter-spacing: 0.016rem
 }
 
 p {
   font-size: 1.3em;
 }
 
-h1 {
-  font-family: 'Bungee Inline', cursive;
-  font-size: 1.8rem;
-}
-
-* {
-  font-family: 'Nunito', sans-serif;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  transition: all .2s linear;
-}
-
 .linkedin-backgroung {
   background-image: url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg");
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-color: #2b251d;
@@ -58,7 +56,7 @@ h1 {
   background: rgba(14, 13, 13, 0.7);
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 25rem;
 }
 
 .overlay * {
@@ -84,8 +82,8 @@ h1 {
 }
 
 #read-more {
-  font-size: 14px;
-  margin-left: 5px;
+  font-size: 0.875rem;
+  margin-left: 0.313rem;
   cursor: pointer;
   margin-bottom: 0;
 }
@@ -106,23 +104,20 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 0;
-  gap: 14px;
-}
-
-.social-media img {
-  width: 1.5rem;
-  height: auto;
+  gap: 0.875rem;
 }
 
 .social-media li {
   display: inline-block;
 }
 
-.image1 {
+.social-media img {
+  width: 1.5rem;
+  height: auto;
   padding: 0.188rem 0 0.188rem 0;
 }
 
-.image1:hover {
+.social-media img:hover {
   transform: scale(1.5);
   transition: 0.3s;
 }
