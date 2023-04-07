@@ -37,7 +37,7 @@ p {
   font-size: 1.3em;
 }
 
-.linkedin-backgroung {
+.linkedin-background {
   background-image: url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg");
   width: 100%;
   height: 25rem;
@@ -83,14 +83,16 @@ p {
 
 #read-more {
   font-size: 0.875rem;
+  font-weight: bolder;
   margin-left: 0.313rem;
   cursor: pointer;
   margin-bottom: 0;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 #read-more:hover {
   color: var(--yellow);
-  font-weight: bolder;
 }
 
 .social-media {
@@ -123,7 +125,7 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
-  .linkedin-backgroung {
+  .linkedin-background {
     background-size: cover;
   }
   .sec-first-child {
