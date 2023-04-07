@@ -121,3 +121,41 @@ p {
   transform: scale(1.5);
   transition: 0.3s;
 }
+
+@media screen and (max-width: 1024px) {
+  .linkedin-backgroung {
+    background-size: cover;
+  }
+  .sec-first-child {
+    top: 9%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-first-child {
+    width: 75%;
+    top: 12%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sec-first-child {
+      top: 8%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: larger;
+  }
+}
