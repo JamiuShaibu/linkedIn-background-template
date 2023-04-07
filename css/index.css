@@ -119,11 +119,6 @@ p {
   padding: 0.188rem 0 0.188rem 0;
 }
 
-.social-media img:hover {
-  transform: scale(1.5);
-  transition: 0.3s;
-}
-
 @media screen and (max-width: 1024px) {
   .linkedin-background {
     background-size: cover;
@@ -141,6 +136,13 @@ p {
   }
 }
 
+@media screen and (min-width: 425px) {
+  .social-media img:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .linkedin-intro h1 {
     text-align: left;
@@ -151,6 +153,11 @@ p {
   }
   p {
     font-size: 1em;
+  }
+  .social-media {
+    width: 50%;
+    left: 70%;
+    top: 6%;
   }
 }
 
@@ -163,5 +170,8 @@ p {
 @media screen and (max-width: 320px) {
   .linkedin-intro h1 {
     font-size: 1.3rem;
+  }
+  .social-media {
+    left: 60%
   }
 }
