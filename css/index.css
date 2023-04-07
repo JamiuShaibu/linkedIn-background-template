@@ -140,6 +140,9 @@ p {
 }
 
 @media screen and (max-width: 425px) {
+  .linkedin-intro h1 {
+    text-align: left;
+  }
   p {
     font-size: 1em;
   }
