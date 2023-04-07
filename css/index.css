@@ -142,6 +142,10 @@ p {
 @media screen and (max-width: 425px) {
   .linkedin-intro h1 {
     text-align: left;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: larger;
   }
   p {
     font-size: 1em;
@@ -155,10 +159,7 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  h2 {
-    font-size: larger;
+  .linkedin-intro h1 {
+    font-size: 1.3rem;
   }
 }
